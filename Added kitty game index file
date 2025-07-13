@@ -1,0 +1,18 @@
+# Kitty-love-game.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Do You Love Me?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.ibb.co/WG9hqCM/kitty.png" id="kitty" alt="Kitty">
+    <h2>Do you love me?</h2>
+    <button onclick="sayYes()">Yes</button>
+    <button onclick="moveKitty()">No</button>
+    <p id="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
